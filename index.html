@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bruno Ibiapina - Portfólio</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+      }
+    </style>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Ícones Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body class="bg-white text-gray-900">
+    <!-- Header -->
+    <header
+      class="flex justify-between items-center px-8 py-4 bg-gray-200 sticky top-0 z-50 w-full"
+    >
+      <a href="#" class="text-lg font-bold">Bruno Ibiapina</a>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">Sobre</a>
+        <a href="#services" class="hover:underline">Empresas</a>
+        <a href="#portfolio" class="hover:underline">Portfólio</a>
+        <a href="#contact" class="hover:underline">Contato</a>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section
+      id="home"
+      class="h-[75vh] flex flex-col md:flex-row items-center justify-between p-10 bg-purple-700 text-white"
+    >
+      <!-- Texto à esquerda -->
+      <div class="w-full md:w-1/2 text-center md:text-left space-y-6">
+        <h1 class="text-5xl font-bold">Bruno Ibiapina</h1>
+        <p class="max-w-xl text-lg">
+          Fundador da Papalegua, distribuidora de bebidas e hospedagem em Barra
+          Grande.<br />
+          Estudante de Engenharia de Software no ICEV.
+        </p>
+        <div class="space-x-4 text-2xl">
+          <a
+            href="https://www.instagram.com/brunoibiapina/"
+            class="hover:text-purple-300"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/bruno-ibiapina-b55aa2116/"
+            class="hover:text-purple-300"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://wa.me/86999224515" class="hover:text-purple-300"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="mailto:brunoibiapina@me.com" class="hover:text-purple-300"
+            ><i class="bx bx-envelope"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- Imagem à direita -->
+      <div
+        class="w-full md:w-1/2 flex justify-center items-end h-full translate-y-10"
+      >
+        <img
+          src="imagens/BrunoIbiapina.png"
+          alt="Bruno Ibiapina"
+          class="max-h-[83vh] object-contain"
+        />
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section
+      id="about"
+      class="w-full py-16 bg-white/30 backdrop-blur-md dark:backdrop-blur-md text-gray-900 dark:text-black"
+    >
+      <div class="max-w-7xl mx-auto px-6 md:px-10 text-center">
+        <h2
+          class="text-3xl font-bold text-purple-700 dark:text-purple-700 mb-8"
+        >
+          👤 Sobre Mim
+        </h2>
+
+        <div
+          class="text-lg max-w-4xl mx-auto leading-relaxed space-y-6 text-left md:text-justify"
+        >
+          <p>
+            Sou <strong>Bruno Ibiapina</strong>, empreendedor apaixonado por
+            <strong>tecnologia e inovação</strong>. Fundador e CEO da startup
+            <strong>Papalegua</strong>, uma plataforma de entregas.
+          </p>
+
+          <ul class="list-disc list-inside space-y-2">
+            <li>
+              🎓 Formação em
+              <strong>Fisioterapia com pós-graduação em UTI</strong>.
+            </li>
+            <li>
+              💻 Atualmente curso
+              <strong>Engenharia de Software no ICEV</strong>.
+            </li>
+            <li>
+              👨‍💻 Estou aprendendo <strong>Java, Python</strong> e aprendizado
+              contínuo em novas tecnologias.
+            </li>
+          </ul>
+
+          <p>
+            💡 Meu propósito é
+            <strong>criar ferramentas que facilitem a vida das pessoas</strong>
+            e contribuir com projetos que
+            <strong>gerem impacto social positivo.</strong>
+          </p>
+
+          <a
+            href="https://hotmart.com/seu-link-aqui"
+            target="_blank  "
+            class="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg text-base font-medium hover:bg-purple-800 transition mx-auto"
+          >
+            Saiba Mais
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Minha Startup -->
+    <section
+      id="ebook"
+      class="py-20 bg-gradient-to-r from-purple-50 to-white text-gray-900"
+      data-aos="fade-down"
+    >
+      <div class="max-w-6xl mx-auto px-6 md:px-10">
+        <div
+          class="bg-gray-800 shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row items-center gap-10"
+        >
+          <!-- Imagem -->
+          <img
+            src="imagens/sacola motobooy.png"
+            alt="Capa do ebook"
+            class="mx-auto w-48 rounded shadow-lg translate-y-5"
+          />
+
+          <!-- Texto -->
+          <div class="flex-1 text-left">
+            <h2 class="text-3xl font-bold text-purple-700 mb-4">
+              Conheça Minha Startup
+            </h2>
+            <h3 class="text-2xl font-semibold mb-4 text-white">
+              Aplicativo de entregas
+            </h3>
+            <p class="mb-6 text-white">
+              Aprenda com minha experiência real à frente da Papalegua como
+              validar uma ideia, construir um MVP e captar os primeiros clientes
+              com baixo custo. Tudo de forma prática e direta.
+            </p>
+            <a
+              href="https://hotmart.com/seu-link-aqui"
+              target="_blank"
+              class="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg text-base font-medium hover:bg-purple-800 transition"
+            >
+              Quero Conhecer
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curso / eBook -->
+    <section
+      id="ebook"
+      class="py-20 bg-gradient-to-r from-purple-50 to-white text-gray-900"
+      data-aos="fade-down"
+    >
+      <div class="max-w-6xl mx-auto px-6 md:px-10">
+        <div
+          class="bg-black shadow-2xl rounded-xl p-10 flex flex-col lg:flex-row items-center gap-10"
+        >
+          <!-- Imagem -->
+          <img
+            src="imagens/ebook.jpg"
+            alt="Capa do ebook"
+            class="mx-auto w-48 rounded shadow-lg translate-y-5"
+          />
+
+          <!-- Texto -->
+          <div class="flex-1 text-left">
+            <h2 class="text-3xl font-bold text-purple-700 mb-4">
+              Meu Curso / eBook
+            </h2>
+            <h3 class="text-2xl font-semibold mb-4 text-white">
+              Como Criar e Escalar sua Startup do Zero
+            </h3>
+            <p class="mb-6 text-white">
+              Aprenda com minha experiência real à frente da Papalegua como
+              validar uma ideia, construir um MVP e captar os primeiros clientes
+              com baixo custo. Tudo de forma prática e direta.
+            </p>
+            <a
+              href="https://hotmart.com/seu-link-aqui"
+              target="_blank"
+              class="inline-block bg-purple-700 text-white px-6 py-3 rounded-lg text-base font-medium hover:bg-purple-800 transition"
+            >
+              Quero Aprender Agora
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio" class="py-20 bg-gray-50 text-gray-900">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-purple-700 mb-12">Portfólio</h2>
+
+        <div class="grid gap-10 md:grid-cols-3 sm:grid-cols-1">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+              alt="Java"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Simulador de Elevador</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Simula rotas inteligentes de elevador em Java com heurísticas.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/Simulador-Elevador"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+              alt="HTML"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Landing Page Papalegua</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Página institucional com Tailwind e responsividade.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/papalegua-site"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JS"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Formulário com exportação em PDF e mapa corporal interativo.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/formulario-hanseniase"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JS"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Formulário com exportação em PDF e mapa corporal interativo.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/formulario-hanseniase"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JS"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Formulário com exportação em PDF e mapa corporal interativo.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/formulario-hanseniase"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+
+          <!-- Card 6 -->
+          <div
+            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+          >
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              alt="JS"
+              class="w-14 h-14 mx-auto mb-4"
+            />
+            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
+            <p class="text-sm text-gray-600 mb-4">
+              Formulário com exportação em PDF e mapa corporal interativo.
+            </p>
+            <a
+              href="https://github.com/BrunoIbiapina/formulario-hanseniase"
+              target="_blank"
+              class="text-purple-700 font-medium hover:underline"
+            >
+              Ver no GitHub →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section
+      id="contact"
+      class="w-full py-16 bg-white text-gray-900"
+      data-aos="fade-up"
+    >
+      <div class="max-w-7xl mx-auto px-6 md:px-10 text-center">
+        <h2 class="text-3xl font-bold text-purple-700 mb-6">Fale Comigo</h2>
+        <form
+          action="https://formspree.io/f/xovdzgnj"
+          method="POST"
+          class="max-w-3xl mx-auto grid gap-6 text-left"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Nome Completo"
+            required
+            class="p-3 border border-gray-300 rounded w-full"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required
+            class="p-3 border border-gray-300 rounded w-full"
+          />
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Celular"
+            class="p-3 border border-gray-300 rounded w-full"
+          />
+          <input
+            type="text"
+            name="subject"
+            placeholder="Assunto"
+            class="p-3 border border-gray-300 rounded w-full"
+          />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Sua Mensagem"
+            required
+            class="p-3 border border-gray-300 rounded w-full"
+          ></textarea>
+          <button
+            type="submit"
+            class="bg-purple-700 text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition self-start"
+          >
+            Enviar Mensagem
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full bg-gray-900 text-white py-8">
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left"
+      >
+        <p class="text-sm">
+          &copy; 2025 Bruno Ibiapina — Todos os direitos reservados.
+        </p>
+        <div class="space-x-4 text-lg">
+          <a
+            href="https://www.instagram.com/brunoibiapina/"
+            target="_blank"
+            class="hover:text-purple-400 transition"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/bruno-ibiapina-b55aa2116/"
+            target="_blank"
+            class="hover:text-purple-400 transition"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://wa.me/86999224515"
+            target="_blank"
+            class="hover:text-purple-400 transition"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a
+            href="mailto:brunoibiapina@me.com"
+            class="hover:text-purple-400 transition"
+            ><i class="bx bx-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script GitHub Portfólio -->
+    <script>
+      const username = "BrunoIbiapina";
+      const container = document.getElementById("repos-container");
+
+      fetch("http://localhost:3001/api/repos")
+        .then((res) => res.json())
+        .then((repos) => {
+          const filtered = repos.filter((repo) => !repo.fork).slice(0, 6);
+
+          const langIcons = {
+            JavaScript:
+              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+            Java: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+            HTML: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+            CSS: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+            TypeScript:
+              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+            Python:
+              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+          };
+
+          filtered.forEach((repo) => {
+            const language = repo.language || "Código";
+            const icon =
+              langIcons[language] ||
+              "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/code/code-original.svg";
+
+            const card = document.createElement("div");
+            card.className = `
+          bg-white text-gray-800 rounded-xl shadow-2xl p-6 
+          flex flex-col justify-between items-center text-center 
+          transform transition duration-300 hover:-translate-y-2 hover:shadow-[0_25px_70px_rgba(0,0,0,0.35)]
+        `;
+
+            card.innerHTML = `
+          <div class="mb-4">
+            <img src="${icon}" alt="${language}" class="w-12 h-12 mx-auto mb-2" />
+            <h3 class="text-lg font-semibold">${repo.name}</h3>
+            <p class="text-sm text-gray-600">${language}</p>
+          </div>
+          <a href="${repo.html_url}" target="_blank"
+            class="mt-auto inline-block bg-purple-700 text-white px-4 py-2 rounded hover:bg-purple-800 transition text-sm font-medium">
+            Ver no GitHub
+          </a>
+        `;
+
+            container.appendChild(card);
+          });
+        })
+        .catch((err) => {
+          container.innerHTML = `<p class="text-red-500">Erro ao carregar repositórios.</p>`;
+          console.error(err);
+        });
+    </script>
+
+    <!-- Caixa de mensagem -->
+    <div
+      id="whatsapp-popup"
+      class="fixed bottom-24 right-6 bg-white border border-gray-300 shadow-lg rounded-lg p-4 max-w-xs z-50 animate-slide-in"
+    >
+      <p class="text-sm text-gray-800">
+        👋 Olá! Fale comigo no WhatsApp se precisar falar comigo.
+      </p>
+    </div>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <a
+      href="https://wa.me/5586999224515"
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50"
+      aria-label="Fale conosco pelo WhatsApp"
+    >
+      <i class="bx bxl-whatsapp text-3xl"></i>
+    </a>
+
+    <!-- Estilo para a animação -->
+    <style>
+      @keyframes slideIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-slide-in {
+        animation: slideIn 0.5s ease-out;
+      }
+    </style>
+
+    <!-- Script para esconder a caixinha após 5 segundos -->
+    <script>
+      setTimeout(() => {
+        const popup = document.getElementById("whatsapp-popup");
+        if (popup) popup.style.display = "none";
+      }, 5000);
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 200,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
