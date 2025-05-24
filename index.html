@@ -44,8 +44,10 @@
     </header>
 
     <!-- Home -->
-    <section id="home" class="min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 py-10 bg-purple-700 text-white">
-
+    <section
+      id="home"
+      class="min-h-[80vh] flex flex-col md:flex-row items-center justify-between px-4 sm:px-6 py-10 bg-purple-700 text-white"
+    >
       <!-- Texto à esquerda -->
       <div class="w-full md:w-1/2 text-center md:text-left space-y-6">
         <h1 class="text-5xl font-bold">Bruno Ibiapina</h1>
@@ -91,7 +93,7 @@
       id="about"
       class="w-full py-16 bg-white/30 backdrop-blur-md dark:backdrop-blur-md text-gray-900 dark:text-black"
     >
-      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div class="max-w-7xl mx-auto px-6 md:px-10 text-center">
         <h2
           class="text-3xl font-bold text-purple-700 dark:text-purple-700 mb-8"
         >
@@ -225,22 +227,26 @@
     </section>
 
     <!-- Portfólio -->
-    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-      <div class="max-w-7xl mx-auto px-6 text-center">
+    <section id="portfolio" class="py-20 bg-gray-50 text-gray-900">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 text-center">
         <h2 class="text-3xl font-bold text-purple-700 mb-12">Portfólio</h2>
 
-        <div class="grid gap-10 md:grid-cols-3 sm:grid-cols-1">
+        <div
+          class="grid gap-8 sm:gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+        >
           <!-- Card 1 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
               alt="Java"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Simulador de Elevador</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Simulador de Elevador
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Simula rotas inteligentes de elevador em Java com heurísticas.
             </p>
             <a
@@ -254,15 +260,17 @@
 
           <!-- Card 2 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
               alt="HTML"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Landing Page Papalegua</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Landing Page Papalegua
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Página institucional com Tailwind e responsividade.
             </p>
             <a
@@ -276,15 +284,17 @@
 
           <!-- Card 3 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               alt="JS"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Formulário Hanseníase
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Formulário com exportação em PDF e mapa corporal interativo.
             </p>
             <a
@@ -298,15 +308,17 @@
 
           <!-- Card 4 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               alt="JS"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Formulário Hanseníase
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Formulário com exportação em PDF e mapa corporal interativo.
             </p>
             <a
@@ -320,15 +332,17 @@
 
           <!-- Card 5 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               alt="JS"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Formulário Hanseníase
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Formulário com exportação em PDF e mapa corporal interativo.
             </p>
             <a
@@ -342,15 +356,17 @@
 
           <!-- Card 6 -->
           <div
-            class="bg-white rounded-xl shadow-xl p-6 transform hover:-translate-y-2 hover:shadow-2xl transition"
+            class="bg-white rounded-xl shadow-xl p-6 flex flex-col items-center transform hover:-translate-y-2 hover:shadow-2xl transition min-h-[320px]"
           >
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
               alt="JS"
               class="w-14 h-14 mx-auto mb-4"
             />
-            <h3 class="text-xl font-semibold mb-2">Formulário Hanseníase</h3>
-            <p class="text-sm text-gray-600 mb-4">
+            <h3 class="text-lg sm:text-xl font-semibold mb-2">
+              Formulário Hanseníase
+            </h3>
+            <p class="text-xs sm:text-sm text-gray-600 mb-4">
               Formulário com exportação em PDF e mapa corporal interativo.
             </p>
             <a
